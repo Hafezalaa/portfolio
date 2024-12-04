@@ -40,7 +40,7 @@ const Technologies = () => {
 
   return (
     <div className="h-svh mb-[50px] shadow- ml-[120px] md:mt-[120px] md:ml-0 p-8 bg-gradient-to-b from-stone-50 via-stone-400 to-stone-50">
-      <div className="bg-stone-300 w-[100%] h-24 grid grid-cols-2 md:flex place-content-between items-center px-16 ">
+      <div className="bg-stone-300 w-[100%] h-36 grid grid-cols-2 md:flex place-content-between items-center px-16 ">
         <button onClick={reset} className="rounded-full w-16 bg-white ">Reset</button>
         <div> Size Control: 
           <input
