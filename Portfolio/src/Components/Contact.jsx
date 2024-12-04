@@ -9,8 +9,8 @@ const Contact = () => {
       <div className="h-svh mb-[50px] ml-[120px] md:mt-[120px] md:ml-0 p-8 bg-gradient-to-b from-stone-50 via-stone-400 to-stone-50 pl-24 pt-36">
         
       
-          <h1>alaaalhafez82@gmail.com</h1>
-          <h1>+49 1522 4800 710</h1>
+          <h1>a************@***.com</h1>
+          <h1>+49 152 ********</h1>
           <h1>github.com/Hafezalaa</h1>
         </div>
  </>
