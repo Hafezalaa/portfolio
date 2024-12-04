@@ -11,7 +11,7 @@ const Header = () => {
                 <NavLink className="" to='Technologies'>Technologies</NavLink>
                 {/* <NavLink className="" to='games'>Games</NavLink> */}
                 {/* <NavLink className="" >About</NavLink> */}
-                {/* <NavLink className=""  to="contact">Contact</NavLink> */}
+                <NavLink className=""  to="contact">Contact</NavLink>
             </ul>
         </nav>
     </div>

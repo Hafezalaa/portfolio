@@ -11,7 +11,7 @@ const Sidebar = () => {
                 <NavLink className='my-4' to='Technologies'>Technologies</NavLink>
                 {/* <NavLink className='my-4' to='games'>Games</NavLink> */}
                 {/* <NavLink className='my-4'>About</NavLink> */}
-                {/* <NavLink className='my-4' to="contact" >Contact</NavLink> */}
+                <NavLink className='my-4' to="contact" >Contact</NavLink>
             </ul>
         </nav>
     </div>

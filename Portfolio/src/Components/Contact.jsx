@@ -1,8 +1,19 @@
-import React from 'react'
+import { ReactTyped } from "react-typed";
 
 const Contact = () => {
   return (
-    <div className="h-svh mb-[50px] ml-[120px] md:mt-[120px] md:ml-0 p-8 bg-gradient-to-b from-stone-50 via-stone-400 to-stone-50">Contact</div>
+ <>
+        <h1 className="text-2xl my-10 text-center">
+          <ReactTyped strings={["Hello! <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong> <strong>.</strong>"]} typeSpeed={150} backSpeed={20}  loop></ReactTyped>
+        </h1>
+      <div className="h-svh mb-[50px] ml-[120px] md:mt-[120px] md:ml-0 p-8 bg-gradient-to-b from-stone-50 via-stone-400 to-stone-50 pl-24 pt-36">
+        
+      
+          <h1>alaaalhafez82@gmail.com</h1>
+          <h1>+49 1522 4800 710</h1>
+          <h1>github.com/Hafezalaa</h1>
+        </div>
+ </>
   )
 }
 
