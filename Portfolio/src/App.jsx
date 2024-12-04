@@ -1,6 +1,6 @@
 import Contact from "./Components/Contact";
 import Dashboard from "./Components/Dashboard";
-import Game from "./Components/Game";
+//import Game from "./Components/Game";
 import Layout from "./Components/Layout";
 import Technologies from "./Components/Technologies";
 import UserData from "./Context/Context";
@@ -15,7 +15,7 @@ function App() {
           <Route index element={<Dashboard/>} />
           <Route path="contact" element={<Contact/>} />
           <Route path="Technologies" element={<Technologies/>}/>
-          <Route path="games" element={<Game/>}/>
+          {/* <Route path="games" element={<Game/>}/> */}
           </Route>
          
         </Routes>

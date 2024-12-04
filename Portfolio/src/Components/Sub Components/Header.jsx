@@ -9,9 +9,9 @@ const Header = () => {
             <ul className="flex place-content-between">
                 <NavLink className=""  to='/'>Home</NavLink>
                 <NavLink className="" to='Technologies'>Technologies</NavLink>
-                <NavLink className="" to='games'>Games</NavLink>
-                <NavLink className="" >4</NavLink>
-                <NavLink className=""  to="contact">Contact</NavLink>
+                {/* <NavLink className="" to='games'>Games</NavLink> */}
+                {/* <NavLink className="" >About</NavLink> */}
+                {/* <NavLink className=""  to="contact">Contact</NavLink> */}
             </ul>
         </nav>
     </div>
